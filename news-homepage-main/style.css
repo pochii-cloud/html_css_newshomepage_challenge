@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Bodoni Moda", serif;
+  font-family: "Nunito", sans-serif;
+}
+.navigation {
+    margin: 10px 15% 40px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allgrids {
+    display: grid;
+    grid-template-areas: "grid1 grid1 grid4" "grid2 grid3 grid4";
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 20px;
+}
+
+.grid1 {
+    /* border: 2px solid black; */
+    grid-area: grid1;
+
+
+}
+
+.grid1 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid2 {
+    /* border: 2px solid black; */
+    grid-area: grid2;
+    font-size: 40px;
+    font-weight: 900;
+
+
+
+}
+
+.grid3 {
+    /* border: 2px solid black; */
+    grid-area: grid3;
+    display: grid;
+
+}
+
+.grid3 button {
+    background-color: hsl(5, 85%, 63%);
+    width: 40%;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.grid4 {
+    grid-area: grid4;
+    display: grid;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    gap: 28px;
+    padding: 12px;
+    
+}
+
+.grid4 .heading {
+    color: hsl(35, 77%, 62%);
+}
+
+.maintwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    margin: 5px;
+    width: 100%;
+
+}
+.card p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.card h3{
+    font-size: 13px;
+    font-weight: 900;
+}
+.cardimage img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.index {
+    margin-left: 5px;
+}
+
+.index h2 {
+    color: gray;
+}
+
+.news h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.news p {
+    opacity: .8;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 5px;
+}
+hr{
+    font-weight: lighter;
+    opacity: .3;
+}
